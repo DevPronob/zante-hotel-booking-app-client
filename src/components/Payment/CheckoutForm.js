@@ -89,11 +89,11 @@ const CheckoutForm = ({price,cart}) => {
             headers: {
                 'Content-Type': 'application/json', // Set the appropriate content type
                 // Add any other headers as needed
-                Authorization: `Bearer ${localStorage.getItem('accessToken')}`, // Example authorization header
+                authorization: `Bearer ${localStorage.getItem('accessToken')}`, // Example authorization header
               },
               body: JSON.stringify(payment),
           };
-          fetch('http://localhost:5001/payments', requestOptions)
+          fetch('https://zante-hotel-booking-app-server-devpronob.vercel.app/payments', requestOptions)
   .then((response) => response.json())
   .then((data) => {
     console.log(data);

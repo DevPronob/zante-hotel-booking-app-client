@@ -8,7 +8,7 @@ const useToken =user =>{
         if(email){
             console.log(email,"user")
             if(email){
-                fetch(`http://localhost:5001/api/user`, {
+                fetch(`https://zante-hotel-booking-app-server-devpronob.vercel.app/api/user`, {
                     method:'POST',
                     headers: {
                         'content-type': 'application/json'

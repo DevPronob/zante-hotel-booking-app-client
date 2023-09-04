@@ -8,11 +8,11 @@ const AllUser = () => {
     // const [user, loading, error2] = useAuthState(auth);
 // Make a GET request to fetch the data
 useEffect(() =>{
-    fetch('http://localhost:5001/api/user', {
+    fetch('https://zante-hotel-booking-app-server-devpronob.vercel.app/api/user', {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
-            Authorization: `Bearer ${localStorage.getItem('accessToken')}`,
+            authorization: `Bearer ${localStorage.getItem('accessToken')}`,
           },
       })
         .then(response => {
@@ -33,8 +33,13 @@ useEffect(() =>{
       
 
         const handleMakeAdmin = user =>{
-            fetch(`http://localhost:5001/api/user/users/admin/${user._id}`, {
-                method: 'PATCH'
+            const headers = new Headers({
+            'Content-Type': 'application/json',
+            authorization: `Bearer ${localStorage.getItem('accessToken')}`,
+              });
+            fetch(`https://zante-hotel-booking-app-server-devpronob.vercel.app/api/user/users/admin/${user._id}`, {
+                method: 'PATCH',
+                headers
             })
             .then(res => res.json())
             .then(data => {

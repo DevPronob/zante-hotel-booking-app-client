@@ -106,8 +106,8 @@ const formattedDate12 = `${parts2[2]}-${parts2[0]}-${parts2[1]}`;
 
 const handleFilter =async() =>{
   console.log(startDate,endDate,adults,child,"up")
-  // const response = await axios.get(`http://localhost:5001/api/rooms?startDate=${startDate}&endDate=${endDate}&adults=${adults}&children=${child}`);
-  //   console.log(`http://localhost:5001/api/rooms?startDate=${startDate}&endDate=${endDate}&adults=${adults}&children=${child}`,"url")
+  // const response = await axios.get(`https://zante-hotel-booking-app-server-devpronob.vercel.app/api/rooms?startDate=${startDate}&endDate=${endDate}&adults=${adults}&children=${child}`);
+  //   console.log(`https://zante-hotel-booking-app-server-devpronob.vercel.app/api/rooms?startDate=${startDate}&endDate=${endDate}&adults=${adults}&children=${child}`,"url")
     // Redirect to Rooms page with filtered results
     const dataAll ={
       startDate,

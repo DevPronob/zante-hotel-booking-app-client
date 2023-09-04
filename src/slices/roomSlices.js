@@ -3,9 +3,9 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 export const fetchRooms = createAsyncThunk('rooms/fetchRooms', async () => {
-  const response = await fetch('http://localhost:5001/api/hotel', {
+  const response = await fetch('https://zante-hotel-booking-app-server-devpronob.vercel.app/api/hotel', {
     headers: {
-      Authorization: `Bearer ${localStorage.getItem('accessToken')}`,
+      authorization: `Bearer ${localStorage.getItem('accessToken')}`,
     },
   });
   const data = await response.json();
@@ -13,9 +13,9 @@ export const fetchRooms = createAsyncThunk('rooms/fetchRooms', async () => {
 });
 
 export const fetchRoomById = createAsyncThunk('rooms/fetchRoomById', async (roomId) => {
-  const response = await fetch(`http://localhost:5001/api/hotel/${roomId}`, {
+  const response = await fetch(`https://zante-hotel-booking-app-server-devpronob.vercel.app/api/hotel/${roomId}`, {
     headers: {
-      Authorization: `Bearer ${localStorage.getItem('accessToken')}`,
+      authorization: `Bearer ${localStorage.getItem('accessToken')}`,
     },
   });
   const data = await response.json();

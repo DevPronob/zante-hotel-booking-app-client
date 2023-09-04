@@ -3,11 +3,11 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 export const createPaymentIntent = createAsyncThunk(
   'pay/payment/createPaymentIntent',
   async (price) => {
-    const response = await fetch('http://localhost:5001/create-payment-intent/', {
+    const response = await fetch('https://zante-hotel-booking-app-server-devpronob.vercel.app/create-payment-intent/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${localStorage.getItem('accessToken')}`,
+        'authorization': `Bearer ${localStorage.getItem('accessToken')}`,
       },
       body: JSON.stringify({ price }),
     });

@@ -69,11 +69,11 @@ const imageUrls = await Promise.all(
 
           try {
             const token = 'your_jwt_token_here'; // Replace with your actual JWT token
-            const response = await fetch('http://localhost:5001/api/add-room', {
+            const response = await fetch('https://zante-hotel-booking-app-server-devpronob.vercel.app/api/add-room', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
-                Authorization: `Bearer ${localStorage.getItem('accessToken')}`,
+                authorization: `Bearer ${localStorage.getItem('accessToken')}`,
               },
               body: JSON.stringify(formData),
             });

@@ -8,9 +8,9 @@ export const fetchBookingsByEmail = createAsyncThunk(
     async (email) => {
       const token = localStorage.getItem('accessToken'); // Get the JWT token from storage
   
-      const response = await fetch(`http://localhost:5001/api/bookings/${email}`, {
+      const response = await fetch(`https://zante-hotel-booking-app-server-devpronob.vercel.app/api/bookings/${email}`, {
         headers: {
-            Authorization: `Bearer ${localStorage.getItem('accessToken')}`,
+            authorization: `Bearer ${localStorage.getItem('accessToken')}`,
         },
       });
   
@@ -22,9 +22,9 @@ export const fetchBookingsByEmail = createAsyncThunk(
 
   export const fetchAllBookings = createAsyncThunk('bookings/fetchAllBookings', async () => {
     try {
-      const response = await fetch('http://localhost:5001/api/bookings/', {
+      const response = await fetch('https://zante-hotel-booking-app-server-devpronob.vercel.app/api/bookings/', {
         headers: {
-            Authorization: `Bearer ${localStorage.getItem('accessToken')}`,
+            authorization: `Bearer ${localStorage.getItem('accessToken')}`,
         },
       });
       

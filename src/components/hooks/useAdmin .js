@@ -14,10 +14,10 @@ const useAdmin = () => {
         try {
           const token = "your_jwt_token_here"; // Replace with your actual JWT token
           const response = await fetch(
-            `http://localhost:5001/api/user/users/admin/${user.email}`,
+            `https://zante-hotel-booking-app-server-devpronob.vercel.app/api/user/users/admin/${user.email}`,
             {
               headers: {
-                Authorization: `Bearer ${localStorage.getItem('accessToken')}`,
+                authorization: `Bearer ${localStorage.getItem('accessToken')}`,
               },
             }
           );

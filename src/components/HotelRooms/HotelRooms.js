@@ -115,7 +115,7 @@ let [roomsALL, setRoomsALL] = useState([]);
 
 
     useEffect(() =>{
-      axios.get(`http://localhost:5001/api/rooms`, {
+      axios.get(`https://zante-hotel-booking-app-server-devpronob.vercel.app/api/rooms`, {
         params: {
           startDate: processedRoomData.startDate,
           endDate: processedRoomData.endDate,
@@ -130,9 +130,9 @@ let [roomsALL, setRoomsALL] = useState([]);
           console.error('Error fetching data:', error);
         });
     },[])
-    //  let roomsALL=  axios.get(`http://localhost:5001/api/rooms?startDate=${room.startDate}&endDate=${room.endDate}&adults=${room.adults}&children=${room.child}`);
+    //  let roomsALL=  axios.get(`https://zante-hotel-booking-app-server-devpronob.vercel.app/api/rooms?startDate=${room.startDate}&endDate=${room.endDate}&adults=${room.adults}&children=${room.child}`);
       const handleFilter =async() =>{
-   const response = await axios.get(`http://localhost:5001/api/rooms?startDate=${startDate}&endDate=${endDate}&adults=${adults}&children=${child}`);
+   const response = await axios.get(`https://zante-hotel-booking-app-server-devpronob.vercel.app/api/rooms?startDate=${startDate}&endDate=${endDate}&adults=${adults}&children=${child}`);
    setRoomsALL(response.data);
         //   dispatch(fetchFilteredRooms({ startDate, endDate, adults, children:child }));
        
