@@ -1,0 +1,124 @@
+.roomDetails_container{
+    background: #f5f3f0;
+    color: #393736;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.parant {
+    width: 1050px;
+    margin-left: auto;
+    /* padding-left: 100px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding-right: 100px; */
+    margin-right: auto;
+}
+.sticky-image {
+    width: 100%; /* Adjust width as needed */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .MuiInputBase-input{
+    font-size: 12px !important;
+    background: white !important;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    .gallery {
+      width: 100%; /* Full width */
+    }
+    .settings {
+      width: 100%; /* Full width */
+      margin-top: 20px;
+    }
+    .image-gallery{
+      width: 100% !important;
+    }
+    .details_slider{
+      margin-left: 24px;
+    }
+    .details_content{
+      width: 100%;
+      margin-left: 21px;
+    }
+    .review {
+      width: 100%;
+      margin-left: 28px;
+      margin-top: 30px;
+    }
+    .roomDetails_container{
+      display: flex;
+      flex-direction: column;
+      gap: 61px;
+    }
+    .room_service_items{
+      width: 100%;
+    }
+    .room_contant{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+    }
+    .details_content {
+      width: 68% !important;
+      margin-left: 21px;
+  }
+    .details_slider{
+      width: 69% !important;
+    }
+    .review__contant{
+      width: 65%;
+    }
+  }
+
+
+
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+    .gallery {
+      width: 100%; /* Full width */
+    }
+    .settings {
+      width: 100%; /* Full width */
+      margin-top: 20px;
+    }
+    .image-gallery{
+      width: 100% !important;
+    }
+    .details_slider{
+      margin-left: 24px;
+    }
+    .details_content{
+      width: 100%;
+      
+    }
+    .review {
+      width: 100%;
+     
+      margin-top: 30px;
+    }
+    .roomDetails_container{
+      display: flex;
+      flex-direction: column;
+      gap: 61px;
+    }
+    .room_service_items{
+      width: 100%;
+    }
+  }
+
+  
+  
+  
+  

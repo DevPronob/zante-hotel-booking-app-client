@@ -1,0 +1,81 @@
+.parant {
+    width: 1050px;
+    margin-left: auto;
+    /* padding-left: 100px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding-right: 100px; */
+    margin-right: auto;
+}
+.height_card{
+    height: 206px !important;
+    margin-bottom: 20px;
+}
+/* .search-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.searchBar_parant{
+    background: none !important;
+} */
+.price_input{
+    width: 218px;
+}
+.searchBar_parant_two .guest{
+    background: white;
+    margin-left: -7px;
+    padding: 10px;
+    /* margin-top: 6px; */
+    position: absolute;
+    top: 227px;
+}
+@media (max-width: 480px) {
+    .form_part{
+        width: 100%;
+    }
+    .h-screen {
+        height: 100% !important;
+    }
+    .parant {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .room_image{
+        width: 48%;
+    height: 51%;
+    }
+    .height__all{
+        height: 100%;
+    margin-top: 6px;
+    }
+    .height_card {
+        height: 297px !important;
+        margin-bottom: 20px;
+        width: 357px;
+        margin-left: 10px;
+    }
+.height__part{
+    padding-top: 40px;
+}
+}
+
+@media screen and (min-width: 668px) and (max-width: 1024px) {
+    .about_parant {
+        width: 100%;
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+    }
+   .search-bar_two .input{
+        width: 23%;
+    }
+    .searchBar_parant_two .search-button {
+        width: 23% !important;
+    }
+}

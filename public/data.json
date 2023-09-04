@@ -1,0 +1,81 @@
+[
+    {
+      "name": "Double Room",
+      "description": "aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit… Zril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur.",
+      "roomServices": [
+        "Sauna",
+        "Breakfast",
+        "Coffee Maker",
+        "Widescreen TV",
+        "Air Conditioner",
+        "Private Balcony"
+      ],
+      "price": "€89 per night",
+      "maxGuests": {
+        "Adults": 4,
+        "Children": 2
+      },
+      "date": {
+        "startingDate": "08/15/2023",
+        "endDate": "08/28/2023"
+      },
+      "images": [
+        "https://i.ibb.co/hFv6Mgp/room-full-1-1.jpg",
+        "https://i.ibb.co/WkZ7Cf3/room-full-2.jpg",
+        "https://i.ibb.co/nM9rznx/room-full-4.jpg",
+        "https://i.ibb.co/c89t00K/room-full-6.jpg"
+      ]
+    },
+    {
+      "name": "Single Room",
+      "description": "aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit… Zril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur.",
+      "roomServices": [
+        "Sauna",
+        "Breakfast",
+        "Coffee Maker",
+        "Widescreen TV",
+        "Air Conditioner"
+      ],
+      "price": "€210 per night",
+      "maxGuests": {
+        "Adults": 3,
+        "Children": 2
+      },
+      "date": {
+        "startingDate": "08/15/2023",
+        "endDate": "09/6/2023"
+      },
+      "images": [
+        "https://i.ibb.co/zGYmdn1/single.jpg",
+        "https://i.ibb.co/MBsFDwx/single2.jpg",
+        "https://i.ibb.co/Nmdjnzk/single3.jpg",
+        "https://i.ibb.co/hCg2vM7/single8.jpg"
+      ]
+    },
+    {
+      "name": "Family Room",
+      "description": "aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit… Zril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur.",
+      "roomServices": [
+        "Sauna",
+        "Breakfast",
+        "Coffee Maker",
+        "Widescreen TV",
+        "Air Conditioner"
+      ],
+      "price": "€189 per night",
+      "maxGuests": {
+        "Adults": 6,
+        "Children": 3
+      },
+      "date": {
+        "startingDate": "08/13/2023",
+        "endDate": "09/14/2023"
+      },
+      "images": [
+        "https://i.ibb.co/sRnHPr2/family.jpg",
+        "https://i.ibb.co/mqb6NqW/2.jpg",
+        "https://i.ibb.co/Nmdjnzk/single3.jpg",
+        "https://i.ibb.co/6vyRsTn/5.jpg"
+      ]
+    }
+  ]

@@ -1,0 +1,523 @@
+
+  .parant {
+    width: 1050px;
+    margin-left: auto;
+    /* padding-left: 100px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding-right: 100px; */
+    margin-right: auto;
+}
+
+.hero_height{
+    height: 600px;
+}
+
+.height_input{
+  height: 15px;
+  display: none;
+}
+.MuiInputBase-root{
+  height: 48px;
+  width: 225px;
+}
+.MuiFormControl-root{
+  width: 240px;
+}
+
+.searchBar_parant {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Add this line to center horizontally */
+    text-align: center; /* Add this line to center button text */
+    flex-wrap: wrap; /* To ensure items wrap if there's limited space */
+    margin-top: 20px; /* Add some spacing */
+    background: white;
+    height: 80px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .content_width{
+    width: 72%;
+  }
+  
+  /* ... (existing styles) ... */
+  
+
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 225px;
+  }
+  .date_input{
+    color: #8e8e8e;
+    border: 1px solid #dedede;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 1px;
+    -webkit-transition: all ease .3s;
+    transition: all ease .3s;
+    font-size: 14px;
+  }
+  
+  .search-button {
+    background-color: #deb666;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .rdrDefinedRangesWrapper{
+    display: none;
+  }
+
+  .rdrDateDisplayWrapper{
+    display: none;
+  }
+  .guest {
+    background: white;
+    margin-left: 28px;
+    padding: 10px;
+    /* margin-top: 6px; */
+    position: absolute;
+    top: 66px;
+  }
+  .MuiInputBase-input{
+    font-size: 14px;
+  }
+
+ .guests-button .booking-guests{
+  color: #a0a4ac;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  border: 1px solid #d4d9e1;
+ }
+ .guestPicker{
+  display: flex;
+  width: 225px;
+  background: white;
+  justify-content: space-between;
+  border: 1px solid #d4d9e1;
+  margin-top: 2px;
+  align-items: center;
+  padding: 4px;
+  height: 48px;
+  color: #979aa0;
+ }
+ .description .label {
+  font-size: 14px;
+  color: #858a99;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.description .ages {
+  font-size: 12px;
+  line-height: 12px;
+}
+.minus{
+  width: 29px;
+    height: 29px;
+    line-height: 32px;
+    font-size: 10px;
+    background: #fafafa;
+    border: 1px solid #d4d9e1;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+ .plus{
+  width: 29px;
+    height: 29px;
+    line-height: 32px;
+    font-size: 10px;
+    background: #fafafa;
+    border: 1px solid #d4d9e1;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.guests-button{
+  display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.hotel_text h3{
+  display: inline-block;
+    position: relative;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: .5px;
+}
+
+.hotel_text p{
+  font-size: 18px;
+  line-height: 28px;
+}
+.rooms_parant{
+  padding-top: 60px;
+}
+.card_height{
+  width: 327px;
+    height: 286px;
+    position: relative;
+}
+.input{
+  color:black ;
+}
+.rooms-co{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.price_tag{
+  width: 104px;
+  background: white;
+  padding: 4px;
+  position: absolute;
+  left: 218px;
+  top: 7px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 13px;
+}
+.about_parant{
+  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+.about_text{
+  flex: 2;
+}
+.about_img{
+  flex: 2;
+}
+.about_text h3{
+  display: inline-block;
+  position: relative;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 38px;
+  letter-spacing: .5px;
+}
+.about_text h5{
+  font-size: 18px;
+    line-height: 28px;
+}
+.about_text p{
+  line-height: 28px;
+  margin: 10px 0;
+}
+.media_content span {
+  font-size: 30px;
+    color: yellow;
+}
+.media_content{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.media_content h4{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.media_content p{
+  font-size: 14px;
+  line-height: 21px;
+  margin: 7px 0;
+}
+.services_content{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+  .hero_height {
+    /* Adjust the height or padding for tablet */
+    height: 600px;
+    padding: 20px 0;
+  }
+  
+  .hero-content {
+    /* Adjust text alignment for tablet */
+    text-align: center;
+  }
+  
+  .content_width {
+    /* Adjust width for tablet */
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+  .hero_height {
+    /* Adjust the height or padding for mobile */
+    height: 600px;
+    padding: 10px 0;
+  }
+  
+  .content_width {
+    /* Adjust width for mobile */
+    width: 90%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+
+/* Default styles for larger screens */
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.input {
+  /* Your input styles */
+  padding: 8px;
+  font-size: 14px;
+}
+
+.search-button {
+  /* Your button styles */
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+  .search-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .input {
+    /* Adjust input styles for tablet */
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .search-button {
+    /* Adjust button styles for tablet */
+    width: 100%;
+  }
+
+  .guest {
+    /* Adjust guest picker styles for tablet */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .guestPicker {
+    /* Adjust guest picker styles for tablet */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 480px) {
+  .search-bar {
+    /* Adjust padding for mobile */
+    padding: 10px;
+  }
+
+  .input {
+    /* Adjust input styles for mobile */
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .search-button {
+    /* Adjust button styles for mobile */
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .guestPicker {
+    /* Adjust guest picker styles for mobile */
+    /* flex-direction: column; */
+    align-items: flex-start;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hotel_text h3 {
+    font-size: 28px;
+  }
+
+  .hotel_text p {
+    font-size: 16px;
+  }
+
+  .rooms-co {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .price_tag {
+    font-size: 16px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+  .gallery-container{
+    display: none;
+  }
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 480px) {
+  .hotel_text h3 {
+    font-size: 24px;
+  }
+.rooms_parant{
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 100%;
+}
+.price_tag {
+  width: 104px;
+  background: white;
+  padding: 4px;
+  position: absolute;
+  left: 166px;
+  top: 7px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 13px;
+}
+.card{
+  width: 27% !important;
+  margin-left: 6px;
+}
+  .hotel_text p {
+    font-size: 14px;
+  }
+
+  .rooms-co {
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+
+  .price_tag {
+    font-size: 14px;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+  .about_parant{
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+  }
+  .about_text{
+    width: 100%;
+    padding-left: 18px;
+    padding-top: 50px;
+  }
+  .about_img{
+    width: 100%;
+    margin-left: 8px
+  }
+  .services_content{
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+  }
+  .services_text{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .services_media{
+    width: 100%;
+  }
+  .review__content{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .review_item{
+    width: 100%;
+  }
+  .gallery-container{
+    display: none !important;
+  }
+  .hotel_text{
+    display: none;
+  }
+  .gallery-container{
+    display: none;
+  }
+  .guest {
+    background: white;
+    margin-left: 3px;
+    padding: 10px;
+    /* margin-top: 6px; */
+    position: absolute;
+    top: 168px;
+}
+}
+
+@media screen and (min-width: 668px) and (max-width: 1024px) {
+.guest {
+  background: white;
+  margin-left: 28px;
+  padding: 10px;
+  /* margin-top: 6px; */
+  position: absolute;
+  top: 107px;
+}
+.rooms_container{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.group{
+  width: 100% !important;
+  margin-left: 65px;
+}
+.rooms_parant >.about_parant {
+  width: 60% !important;
+  margin-left: 30px !important;
+}
+.services_content{
+  display: flex ;
+  flex-direction: column;
+}
+.hotel_text{
+  display: none;
+}
+.review_grid{
+  max-width: 72%;
+}
+.review__content{
+  margin-left: 102px;
+    margin-right: auto;
+}
+}

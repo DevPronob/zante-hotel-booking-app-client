@@ -1,0 +1,1 @@
+[vc_row][vc_column][zante-testimonials posts_limit="6" posts_per_row="3" orderby="none" order="ASC" offset="" show_more_btn=""][/vc_column][/vc_row]

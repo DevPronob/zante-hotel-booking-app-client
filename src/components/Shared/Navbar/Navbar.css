@@ -1,0 +1,11 @@
+.nav_container{
+    position: absolute;
+    width: 900px;
+    padding-top: 100px;
+}
+.navbar_parant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
